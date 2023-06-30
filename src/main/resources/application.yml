@@ -1,11 +1,12 @@
 server:
   port: 52661
 
+# I decide using a yml file for better understanding
 spring:
   application:
     name: api-historic-log-data
   datasource:
-    url: jdbc:h2:mem:usersDB # In memory DB.
+    url: jdbc:h2:mem:recordDB # In memory DB.
     username: sa
     password: password
     driverClassName: org.h2.Driver
